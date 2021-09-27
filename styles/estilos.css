@@ -13,3 +13,7 @@ ul {
     justify-content: space-between;
     padding: 3%;
 }
+
+.logo {
+    height: 70px;
+}
