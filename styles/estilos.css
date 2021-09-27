@@ -14,34 +14,32 @@ ul {
     padding: 3%;
 }
 
-.mainButton {
-    background-color: rgb(78, 75, 212);
-    color: aliceblue;
+.button {
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-    
+    color: aliceblue;
 }
 
-.mainButton:hover {
+.button:hover {
     cursor: pointer;
-    box-shadow: 5px 5px pink;
     transform: scale(1.1);
 }
+
+.mainButton {
+    background-color: rgb(78, 75, 212);
+ }
+ 
+ .mainButton:hover {
+     box-shadow: 5px 5px rgb(235, 34, 127);
+ }
+
 
 .secondaryButton {
     background-color: rgb(75, 196, 212);
-    color: aliceblue;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    
 }
 
 .secondaryButton:hover {
-    cursor: pointer;
     box-shadow: 5px 5px rgb(252, 200, 224);
-    transform: scale(1.1);
 }
