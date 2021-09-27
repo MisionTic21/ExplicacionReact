@@ -13,3 +13,19 @@ ul {
     justify-content: space-between;
     padding: 3%;
 }
+
+.mainButton {
+    background-color: rgb(78, 75, 212);
+    color: aliceblue;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    
+}
+
+.mainButton:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px pink;
+    transform: scale(1.1);
+}
