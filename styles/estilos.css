@@ -1,0 +1,65 @@
+body {
+    margin: 0%;
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.logo {
+    height: 70px;
+}
+
+.button {
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton {
+    background-color: rgb(78, 75, 212);
+ }
+ 
+ .mainButton:hover {
+     box-shadow: 5px 5px rgb(235, 34, 127);
+ }
+
+
+.secondaryButton {
+    background-color: rgb(75, 196, 212);
+}
+
+.secondaryButton:hover {
+    box-shadow: 5px 5px rgb(252, 200, 224);
+}
+
+.buscar {
+    background-color: white;
+    border: 1px solid gold;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar:focus-within {
+    border: 1px solid rgb(108, 75, 228);
+}
+
+.buscar > input {
+    outline: none;
+    border: 0px;
+}
