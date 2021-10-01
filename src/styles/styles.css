@@ -1,17 +1,17 @@
 body {
-  margin: 0%;
+  margin: 0px;
 }
 
 ul {
   list-style: none;
-  padding: 0%;
-  margin: 0%;
+  padding: 0px;
+  margin: 0px;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 3%;
+  padding: 0px;
   background-color: rgb(228, 212, 210);
   border-bottom: 1px solid gray;
   box-shadow: 1px 1px;
@@ -115,4 +115,12 @@ ul {
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+}
+
+.backGroundRojo {
+  background-color: red;
+}
+
+.backGroundVerde {
+  background-color: green;
 }
