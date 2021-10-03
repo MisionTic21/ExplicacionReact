@@ -8,6 +8,21 @@ ul {
   margin: 0px;
 }
 
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer > main {
+  height: 100%;
+}
+
+.mainContainer > footer {
+  background-color: red;
+  padding: 10px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -44,9 +59,8 @@ ul {
 }
 
 .mainButton:hover {
-   box-shadow: 5px 5px rgb(235, 34, 127);
+  box-shadow: 5px 5px rgb(235, 34, 127);
 }
-
 
 .secondaryButton {
   background-color: rgb(75, 196, 212);
